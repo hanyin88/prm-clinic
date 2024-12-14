@@ -1,0 +1,9 @@
+{   "+": "<|reserved_special_token_7|>",
+    "-": "<|reserved_special_token_8|>",
+    "Problem_token": "<|reserved_special_token_1|>",
+    "Step_token": "<|reserved_special_token_2|>",
+    "Problem_completeness_token": "<|reserved_special_token_3|>",
+    "Note_completeness_token": "<|reserved_special_token_4|>",
+    "End_of_note_token": "<|reserved_special_token_5|>",
+    "Placeholder_token": "<|reserved_special_token_6|>"
+  }

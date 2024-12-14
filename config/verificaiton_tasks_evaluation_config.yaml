@@ -1,0 +1,5 @@
+model_name_or_path: prm-clinic/output/checkpoint-800
+special_tokens_file: prm-clinic/config/special_token.json
+input_csv_file: prm-clinic/data/test_set_verification_tasks/verification_tasks_placehold.csv
+true_labels_csv_file: prm-clinic/data/test_set_verification_tasks/verification_tasks_true_label.csv
+output_file: prm-clinic/test/verification_tasks

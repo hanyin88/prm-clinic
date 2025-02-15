@@ -58,17 +58,16 @@ def main():
             subprocess.run(metric1_cmd, check=True)
         
             
-        # Similarly for PRM_label_level_and_ORM_scores.py
-        metric2_output_file = os.path.join(output_dir, f'{model_name}_PRM_label_level_and_ORM_scores.csv')
+        # Similarly for ORM_note_level_scores.py
+        metric2_output_file = os.path.join(output_dir, f'{model_name}_ORM_note_level_scores.csv')
         if not os.path.exists(metric2_output_file):
 
             metric2_cmd = [
-                'python', 'prm-clinic/src/eval/verfication_tasks/PRM_label_level_and_ORM_scores.py',
+                'python', 'prm-clinic/src/eval/verfication_tasks/ORM_note_level_scores.py',
                 '--input_file', evaluation_output_file,
                 '--output_file', metric2_output_file,
-                '--mapping_file', 'prm-clinic/config/special_token.json'
             ]
-            print(f'Running PRM_label_level_and_ORM_scores.py for model {model_name}')
+            print(f'Running ORM_note_level_scores.py for model {model_name}')
             subprocess.run(metric2_cmd, check=True)
 
 if __name__ == '__main__':

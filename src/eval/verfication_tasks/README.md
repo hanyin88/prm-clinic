@@ -5,4 +5,4 @@ This folder contains Python scripts and a shell script that run all verification
 ./example_script.sh --dry-run
 ```
 
-The PRM's accuracy can be found in the `500_PRM_note_level_scores.csv`. The `RM_label_level_and_ORM_scores.csv` contains accuracy for all labels, and ORM's accuracy can be identified where `preceding_token == End_of_note_token` and `true_label == +`.
+The PRM's accuracy can be found in the `checkpoint-500_PRM_note_level_scores.csv`. The ORM's accuracy can be found in the `checkpoint-500_ORM_note_level_scores.csv`.

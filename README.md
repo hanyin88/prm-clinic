@@ -1,6 +1,6 @@
 # PRM-Clinic
 
-## This repository contains the code and dataset used for the paper: Process-Supervised Reward Models for Clinical Note Generation: A Scalable Approach Guided by Domain Expertise
+## This repository contains the code and dataset used for the paper: Process-Supervised Reward Models for Verifying Clinical Note Generation: A Scalable Approach Guided by Domain Expertise
 
 ## Local setup
 Install dependencies. We used conda environment.
